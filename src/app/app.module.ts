@@ -8,9 +8,10 @@ import { TodosComponent } from './MyComponent/todos/todos.component';
 import { HeaderComponent } from './includes/header/header.component';
 import { FooterComponent } from './includes/footer/footer.component';
 import { MainComponent } from './includes/main/main.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
-  declarations: [AppComponent, TodosComponent, HeaderComponent, FooterComponent, MainComponent],
+  declarations: [AppComponent, TodosComponent, HeaderComponent, FooterComponent, MainComponent, LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
