@@ -1,0 +1,47 @@
+<mat-card class="patient-main">
+  <mat-card-content class="patient-content">
+    <h2 mat-dialog-title class="patient-css">SEARCH PATIENT</h2>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name" />
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>MR Number</mat-label>
+        <input matInput placeholder="MR Number" />
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>CNIC</mat-label>
+        <input matInput placeholder="CNIC" />
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Family Id</mat-label>
+        <input matInput placeholder="Family Id" />
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Phone Number</mat-label>
+        <input matInput placeholder="Phone Number" />
+      </mat-form-field>
+      <mat-icon>edit</mat-icon>
+    </p>
+
+    <mat-dialog-actions align="end" class="btn-move">
+      <button
+        mat-raised-button
+        [mat-dialog-close]="true"
+        class="submit-reg"
+        cdkFocusInitial
+      >
+        Search
+      </button>
+    </mat-dialog-actions>
+  </mat-card-content>
+</mat-card>

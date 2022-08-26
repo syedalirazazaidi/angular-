@@ -1,0 +1,30 @@
+.patient-content{
+    background: rgb(255, 255, 255);
+    color: #000000de;
+    text-align: center;
+}
+.patient-main{
+  width: 40%;
+  margin:40px 405px;
+  border-radius: 7px;
+}
+.mat-form-field{
+  margin: 15px;
+  color: #fff;
+  width: 90%;
+  height: 35px;
+  font-size: 12px;
+  position: relative;
+}
+.mat-icon{
+  position: absolute;
+  right:52px;
+  bottom: 78px;
+}
+.submit-reg{
+  background-color: #3f51b5;
+  color: #fff;
+  width: 8rem;
+  height: 35px;
+  font-size: 12px;
+}

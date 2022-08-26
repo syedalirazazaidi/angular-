@@ -1,0 +1,139 @@
+<mat-card class="patient-main">
+  <mat-card-content class="patient-content">
+    <h2 mat-dialog-title class="heading-css">Patient Registration</h2>
+    <mat-divider></mat-divider>
+    <mat-dialog-content class="mat-typography">
+      <div class="line1-register">
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>MR Number</mat-label>
+            <input matInput placeholder="MR Number" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Family Number</mat-label>
+            <input class="input" matInput placeholder="Family Number" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Sehat Safe Number</mat-label>
+            <input matInput placeholder="Sehat Safe Number" />
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>CNIC Number</mat-label>
+            <input matInput placeholder="CNIC Number" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input class="input" matInput placeholder="First Name" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Middle Name</mat-label>
+            <input matInput placeholder="Middle Name" />
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input matInput placeholder="Last Name" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Phone Number</mat-label>
+            <input class="input" matInput placeholder="Phone Number" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Alternate Phone Number</mat-label>
+            <input matInput placeholder="Alternate Phone Number" />
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Email" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Gender</mat-label>
+            <mat-select>
+              <mat-option value="one">Male</mat-option>
+              <mat-option value="two">Female</mat-option>
+              <mat-option value="two">Other</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>City Town</mat-label>
+            <input matInput placeholder="City Town" />
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Date Of Birth</mat-label>
+            <input matInput [matDatepicker]="picker" />
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle
+              matSuffix
+              [for]="picker"
+            ></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Age</mat-label>
+            <input class="input" matInput placeholder="Age" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Province</mat-label>
+            <mat-select>
+              <mat-option value="one">Sindh</mat-option>
+              <mat-option value="two">Punjab</mat-option>
+              <mat-option value="two">Balochistan</mat-option>
+              <mat-option value="two">KPK</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Home Address</mat-label>
+            <input matInput placeholder="Home Address" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Maritial Status</mat-label>
+            <mat-select>
+              <mat-option value="one">Single</mat-option>
+              <mat-option value="two">Married</mat-option>
+              <mat-option value="two">Divorce</mat-option>
+              <mat-option value="two">Unmarried</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Types Of Visit</mat-label>
+            <mat-select>
+              <mat-option value="one">Clinical</mat-option>
+              <mat-option value="two">Educational</mat-option>
+              <mat-option value="two">Others</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+      </div>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end" class="btn-move">
+      <button
+        mat-raised-button
+        [mat-dialog-close]="true"
+        class="submit-reg"
+        cdkFocusInitial
+      >
+        Submit
+      </button>
+    </mat-dialog-actions>
+  </mat-card-content>
+</mat-card>

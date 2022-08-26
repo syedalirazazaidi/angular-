@@ -1,0 +1,36 @@
+.patient-main{
+  width: 70%;
+  margin: 20px 150px; 
+  /* width: 100%; */
+    padding-right: 65px;
+    padding-left: 95px;
+    background: rgb(255, 255, 255);
+    color: #000000de;
+}
+.heading-css{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto,Helvetica Neue,sans-serif;
+}
+.line1-register{
+  max-width: 100%;
+}
+.mat-form-field{
+  margin: 20px;
+  color: #fff;
+  width: 300px;
+  height: 35px;
+  font-size: 12px;
+}
+.submit-reg{
+  background-color: #3f51b5;
+  color: #fff;
+  width: 8rem;
+  height: 35px;
+  font-size: 12px;
+}
+.btn-move {
+  margin-left: 870px;
+}
+  
