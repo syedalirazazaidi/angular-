@@ -18,6 +18,8 @@ import { PatientRegisterComponent } from './pages/patient-register/patient-regis
 import { SearchPatientComponent } from './pages/search-patient/search-patient.component';
 import { AppoinmentComponent } from './includes/appoinment/appoinment.component';
 
+import { PatientBioComponent } from './pages/patient-bio/patient-bio.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +35,8 @@ import { AppoinmentComponent } from './includes/appoinment/appoinment.component'
     PatientRegisterComponent,
     SearchPatientComponent,
     AppoinmentComponent,
+
+    PatientBioComponent,
   ],
   imports: [
     BrowserModule,
